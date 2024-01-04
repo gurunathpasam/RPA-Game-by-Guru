@@ -1,0 +1,112 @@
+body {
+    background-color:rgb(252, 199, 94);
+    color: white;
+    font-family: Arial;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.move-icon {
+    height: 100px;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+.move-button {
+    background-color: transparent;
+    border: 5px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.score {
+    margin: 60px;
+}
+
+.reset-score-button {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: rgb(229, 154, 14);
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .move-icon {
+        height: 80px;
+        margin: 10px;
+    }
+
+    .move-button {
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+    }
+
+    .result {
+        font-size: 20px;
+        margin: 30px;
+    }
+
+    .score {
+        margin: 40px;
+    }
+
+    .reset-score-button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .move-icon {
+        height: 60px;
+        margin: 5px;
+    }
+
+    .move-button {
+        width: 120px;
+        height: 120px;
+        margin-right: 5px;
+    }
+
+    .result {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .score {
+        margin: 30px;
+    }
+
+    .reset-score-button {
+        font-size: 14px;
+    }
+}
